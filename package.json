@@ -1,0 +1,19 @@
+{
+  "name": "streetlity-mail",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "cross-env PORT=6920 node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cross-env": "^7.0.2",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "handlebars": "^4.7.6",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "nodemailer": "^6.4.6"
+  }
+}
