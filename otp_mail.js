@@ -14,7 +14,7 @@ async function send(info, otp) {
     let result = template(data);
     let message = {
         from: "tangkiemthusinh@gmail.com",
-        to: "nvnam.c@gmail.com",
+        to: info.email,
         subject: "Nanibank Authentication",
         html: result
     };

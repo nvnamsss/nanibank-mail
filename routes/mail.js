@@ -33,7 +33,7 @@ router.post('/otp', function(req, res) {
     let email = req.body["email"];
     let name = req.body["name"];
     let otp = req.body["otp"]; 
-
+    
     otp_mail({
         email : email,
         name : name
